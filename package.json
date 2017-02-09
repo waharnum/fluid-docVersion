@@ -1,0 +1,9 @@
+{
+    "name": "fluid-docVersion",
+    "description": "Publishes multiple docpad branches",
+    "version": "0.0.1",
+    "author": "Fluid Community",
+    "dependencies": {
+        "infusion": "2.0.0"
+    }
+}

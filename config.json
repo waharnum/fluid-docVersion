@@ -1,0 +1,9 @@
+{
+    "repository": "https://github.com/waharnum/infusion-docs",
+    "outputDirectory": "/docs",
+    "localRepoDirectory": "infusion-docs",
+    "buildConfig": {
+        "branches": ["master", "1.9.x", "2.x.x"],
+        "tags": ["v2.0.0"]
+    }
+}
