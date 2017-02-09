@@ -1,6 +1,6 @@
 # fluid-docVersion
 
-A fast spike (basically, "BASH in node") to demonstrate how we can use some existing behaviour of the docpad implementation to get what we want.
+A fast spike (basically, "BASH in node") to demonstrate how we can use some existing behaviour of the docpad implementation of the Infusion docs to get closer to what we want.
 
 At the moment, this relies upon Alan's fork of https://github.com/fluid-project/infusion-docs with these changes; in order to adopt this approach, we'd need to make similar changes to the `fluid-project` repo:
 
