@@ -20,9 +20,10 @@ var repoSpawnOptions = {stdio:[0,1,2], cwd: localRepoDirectory};
 // Run NPM install in the repo directory
 spawnSync('npm', ['install'], repoSpawnOptions);
 
-// Check out each branch and generate it statically
+// Consolidate the branches and tags from the config file
 var checkouts = buildConfig.branches.concat(buildConfig.tags);
 
+// Check out each branch or tag and run its static generation
 checkouts.forEach(function (checkoutName) {
     spawnSync('git', ['checkout', checkoutName, "--force"], repoSpawnOptions);
     spawnSync('docpad', ['generate', '--env', 'static'], repoSpawnOptions);
